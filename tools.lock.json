@@ -1,0 +1,47 @@
+{
+  "platform": "windows-x64",
+  "lockedAt": "2026-10-15",
+  "tools": [
+    {
+      "name": "Blender",
+      "version": "4.5.14",
+      "filename": "blender-4.5.14-windows-x64.zip",
+      "url": "https://download.blender.org/release/Blender4.5/blender-4.5.14-windows-x64.zip",
+      "expected": "b9533d2397ac1984db4466fb23a7a4649391cca93f6e84209f9bcc60d071c8b9",
+      "extract": "blender",
+      "checksum_source": "https://download.blender.org/release/Blender4.5/blender-4.5.14.sha256",
+      "sha256": "b9533d2397ac1984db4466fb23a7a4649391cca93f6e84209f9bcc60d071c8b9",
+      "checksum_verification": "publisher checksum matched"
+    },
+    {
+      "name": "SugarCube",
+      "version": "2.37.3",
+      "filename": "sugarcube-2.37.3-for-twine-2.1-local.zip",
+      "url": "https://www.motoslave.net/sugarcube/download.php/2/sugarcube-2.37.3-for-twine-2.1-local.zip",
+      "expected": null,
+      "extract": "storyformats",
+      "sha256": "da00a8c15ec4e88a9e231a3ff6c516c57055f84231bb999f869ed34ade353dab",
+      "checksum_verification": "local fingerprint; publisher checksum unavailable"
+    },
+    {
+      "name": "Tweego",
+      "version": "2.1.1",
+      "filename": "tweego-2.1.1-windows-x64.zip",
+      "url": "https://github.com/tmedwards/tweego/releases/download/v2.1.1/tweego-2.1.1-windows-x64.zip",
+      "expected": null,
+      "extract": "tweego",
+      "sha256": "38102cc40906ae90b43f5ed1d97985d7c395376f54a14438e3fda63c1c8fd28b",
+      "checksum_verification": "local fingerprint; publisher checksum unavailable"
+    },
+    {
+      "name": "Twine",
+      "version": "2.12.1",
+      "filename": "Twine-2.12.1-Windows.exe",
+      "url": "https://github.com/klembot/twinejs/releases/download/2.12.1/Twine-2.12.1-Windows.exe",
+      "expected": "0e6f772064f40af5514db78b0384d317491bf068291769252566c3dfda8094f5",
+      "extract": null,
+      "sha256": "0e6f772064f40af5514db78b0384d317491bf068291769252566c3dfda8094f5",
+      "checksum_verification": "publisher checksum matched"
+    }
+  ]
+}

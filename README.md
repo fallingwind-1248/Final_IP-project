@@ -1,0 +1,71 @@
+# Final IP 开发工作区
+
+本仓库用于四周硬科幻互动作品的技术准备。当前交付为离线技术样例，正式剧本、模型、音频和 proposal 待小组创作。
+
+## 先用哪几个入口
+
+| 入口 | 用途 |
+|---|---|
+| 00-setup.cmd | 下载锁定工具并安装测试依赖；首次需要联网 |
+| 01-check-environment.cmd | 检查应用和构建工具 |
+| 02-build.cmd | 从唯一故事源构建 dist/index.html |
+| 03-preview.cmd | 构建后用默认浏览器打开本地样例 |
+| 04-package.cmd | 生成 releases/final-ip-technical-prototype.zip |
+| 05-open-twine.cmd | 打开 Twine 桌面应用 |
+| 06-open-blender.cmd | 打开 Blender 便携版 |
+| 07-checkpoint.cmd | 在 AI 技术修改前备份故事并记录作者文本 |
+| 08-compare-author-text.cmd | 在 AI 技术修改后检查正文差异 |
+| 09-test.cmd | 在本机 Chrome 与 Edge 中验证已解压的离线包 |
+
+运行入口遇到错误会保留提示。检查失败时修复具体缺项，再重新执行。
+
+## 日常编辑
+
+本机已配置项目专用英文 Twine 编辑器并导入技术模板，使用 05-open-twine.cmd 打开。它使用 .local/twine-editor 配置和 .local/twine-library 故事库，与通用启动入口分开。换机或新增故事时，从 Import 导入构建得到的 dist/index.html。选择 SugarCube 2.37.3；详细步骤见仓库外指南。
+
+正文节点 TextShort、TextLong 带 author-text 标签，供组员人工编辑。Start、ViewA、ViewB 带 technical 标签，当前含技术控件与测试选项。
+新增正式文字节点时使用 author-text 标签。技术节点中的测试选项改为正式文案时，交还作者自行填写并纳入文本保护范围。
+
+交接顺序：Twine 导出 Twee → 覆盖 src/story.twee → checkpoint → AI 技术修改 → compare → build → 预览 → 备份 Twine 原故事 → 导入新版 HTML。
+交接期间一方编辑。Twine 自动保存不会自动更新 Git；每次结束编辑都需主动导出。
+
+## 目录职责
+
+- src：单份故事源，正文、样式与脚本同存。
+- assets：运行图片、声音和来源登记。
+- scripts：环境配置、构建、打包、交接及诊断工具。
+- tests：具有明确预期的浏览器测试。
+- docs：中文需求、设计、验收、决定及待办。
+- evidence：实际环境与测试结果；大图和本地应用状态排除出 Git。
+- delivery：进入运行包的英文说明和来源信息。
+- art：手工制作的 Blender 工程和素材使用约定。
+- .tools、.local、dist、releases：本机工具、交接备份及生成结果，均不提交。
+
+个人阅读区在相邻 Final_IP-guide，包含中文操作指南、proposal 素材、纠偏与个人 Craft Memo 记录。
+
+## 复现环境
+
+Windows x64，需要 Git、Node.js 和 Python 3.12 或更新版本。先执行 00-setup.cmd，再执行环境检查、构建、打包和测试。
+工具版本与 SHA-256 见 tools.lock.json。下载脚本读取系统代理；不修改全局代理或 PATH。项目本地依赖采用 package-lock.json 锁定。
+Twine 按当前用户安装；Blender、Tweego 和 SugarCube 位于 .tools。测试使用已有 Chrome、Edge，不下载额外浏览器。
+
+## 内容和提交边界
+
+游戏及正式提交材料采用英文；开发资料允许中文。所有正式正文、选项文案和 proposal 由小组人工写作。
+声音第一阶段仅验证本地播放与停止。默认场景渲染只证明 Blender 可用，正式 3D 画面由组员制作。
+素材清单逐项登记来源与许可。技术夹具必须在最终作品中替换。
+远端为 https://github.com/sssxy-Mr2p5pi/Final_IP-project 。代理仅做本地 commit，由用户 push。
+
+具体实测结果见 evidence/tests/browser-tests.json、twine-roundtrip.json 和 evidence/environment/blender-render.json。
+实际扬声器听感、另一台电脑运行和组员亲手完成 Twine 交接仍分别列为人工验收项。
+
+## 本轮验收结果
+
+2026-10-15：Chrome、Edge各三个窗口配置共六组离线包检查通过；Twine实际导出和重新导入保真检查通过；作者文本保护器的正反例检查通过；Blender默认场景保存与CPU渲染通过。
+图像与阅读面板截图已检查，视口横向溢出和热点位置检查通过。人工听感、另一台电脑与作者亲手交接仍待确认。
+
+额外验证入口：`npm run test:twine` 检查Twine往返，`npm run test:author` 检查正文保护器。
+先运行打包，再运行浏览器测试；源码有变化时需重新打包。
+
+应用偏好：Twine和Blender均使用项目专用英文配置。重新配置入口为 `python scripts/configure_twine.py`，此操作保留已存在的编辑器故事。
+Blender入口使用 .local/blender-config，操作系统的全局应用偏好保持独立。

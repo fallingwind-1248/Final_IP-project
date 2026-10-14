@@ -1,0 +1,8 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "Build offline prototype", "type": "process", "command": "node", "args": ["scripts/project.mjs", "build"], "group": {"kind":"build","isDefault":true}, "problemMatcher": [] },
+    { "label": "Package offline prototype", "type": "process", "command": "node", "args": ["scripts/project.mjs", "package"], "problemMatcher": [] },
+    { "label": "Check project", "type": "process", "command": "node", "args": ["scripts/project.mjs", "check"], "problemMatcher": [] }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-10-14T17:32:47.554Z",
+  "status": "passed",
+  "passages": 10,
+  "sourceSha256": "ed70e22d527404048a167c3ab32b8885d4d7585a05211d77fe42ffd91b05cbad",
+  "authorText": {
+    "TextShort": "759175070a2df96c9746f8f0b2a71056bfec948fddee01fd1a170d35a9d2a86b",
+    "TextLong": "c776468aa3a73c4155f7cf0acebb42779ef25d93414b419963f0812499986c51"
+  },
+  "assets": [
+    {
+      "path": "assets/images/view-a.svg",
+      "sha256": "d509f0b8d90d3d73fa22cd938502a44e7bba08a6adfad2b06e06a31c5f4782d4"
+    },
+    {
+      "path": "assets/images/view-b.svg",
+      "sha256": "4560c43b961d6a681dcb956318cda4a26b599e2f1d7ebd26c480d111ad2c6891"
+    },
+    {
+      "path": "assets/audio/test-tone.wav",
+      "sha256": "711453e16770376db1ae57b570fc2cd0c03a8f49bd25629ddc6f86425a0bdc5f"
+    }
+  ]
+}

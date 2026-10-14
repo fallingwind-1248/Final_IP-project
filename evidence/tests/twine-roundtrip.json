@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-10-14T17:33:00.142Z",
+  "status": "passed",
+  "sourceSha256": "ed70e22d527404048a167c3ab32b8885d4d7585a05211d77fe42ffd91b05cbad",
+  "humanEditorTrial": "pending",
+  "method": "Actual Twine desktop import and Export As Twee. Native download destination set by the test.",
+  "firstExportPassages": [
+    "StoryTitle",
+    "StoryData",
+    "StoryInit",
+    "Start",
+    "ViewA",
+    "ViewB",
+    "TextShort",
+    "TextLong",
+    "__script",
+    "__style"
+  ],
+  "secondExportPassages": [
+    "StoryTitle",
+    "StoryData",
+    "StoryInit",
+    "Start",
+    "ViewA",
+    "ViewB",
+    "TextShort",
+    "TextLong",
+    "__script",
+    "__style"
+  ],
+  "exportSha256": [
+    "e1d5911e2d0ce994583129f566c1a64fe239d0819f3a8696b116dca26e93acc8",
+    "e1d5911e2d0ce994583129f566c1a64fe239d0819f3a8696b116dca26e93acc8"
+  ],
+  "ifid": "68419E4A-05BC-4A6D-904C-7F7E391BA8A2",
+  "recompiledRuntime": "passed: offline navigation, shared state and long text"
+}

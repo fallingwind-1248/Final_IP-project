@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-10-14T17:35:37.023Z",
+  "status": "passed",
+  "locale": "en-us",
+  "storyFormat": "SugarCube 2.37.3",
+  "profile": ".local/twine-editor",
+  "storyLibrary": ".local/twine-library",
+  "templateVisible": true,
+  "manualHumanEditing": "pending"
+}

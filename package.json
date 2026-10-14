@@ -1,0 +1,18 @@
+{
+  "name": "final-ip-project",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Offline SugarCube technical prototype. All story content is authored by the group.",
+  "devDependencies": {
+    "playwright": "1.64.1"
+  },
+  "scripts": {
+    "build": "node scripts/project.mjs build",
+    "check": "node scripts/project.mjs check",
+    "package": "node scripts/project.mjs package",
+    "test": "node tests/offline.cjs",
+    "preview": "node scripts/project.mjs preview",
+    "test:twine": "node tests/twine.cjs",
+    "test:author": "node tests/author-guard.mjs"
+  }
+}

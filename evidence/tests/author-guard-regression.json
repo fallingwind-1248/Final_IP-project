@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-10-14T17:35:35.925Z",
+  "status": "passed",
+  "cases": [
+    "technical-only edit accepted",
+    "author-text edit detected and failed",
+    "original author text accepted"
+  ],
+  "productionSourceModified": false
+}

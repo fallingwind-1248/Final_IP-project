@@ -1,0 +1,15 @@
+.tools/
+node_modules/
+dist/
+releases/
+.local/
+*.blend1
+*.blend2
+__pycache__/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+evidence/tests/screenshots/
+evidence/environment/blender-smoke/
+evidence/environment/twine-profile/

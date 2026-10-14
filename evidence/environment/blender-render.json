@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "blenderVersion": "4.5.14 LTS",
+  "renderSeconds": 2.002,
+  "engine": "CYCLES",
+  "device": "CPU",
+  "resolution": [
+    1280,
+    720
+  ],
+  "scene": "unmodified factory cube, camera and light",
+  "image": "blender-smoke/default-scene.png",
+  "modelAuthor": "Blender factory scene; no project model created"
+}

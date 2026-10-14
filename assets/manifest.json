@@ -1,0 +1,26 @@
+[
+  {
+    "path": "assets/images/view-a.svg",
+    "author": "AI-assisted diagnostic code; not student creative work",
+    "source": "scripts/create_fixtures.py",
+    "license": "Project diagnostic fixture; no third-party source",
+    "modifications": "Generated locally",
+    "use": "technical test only; replace before final submission"
+  },
+  {
+    "path": "assets/images/view-b.svg",
+    "author": "AI-assisted diagnostic code; not student creative work",
+    "source": "scripts/create_fixtures.py",
+    "license": "Project diagnostic fixture; no third-party source",
+    "modifications": "Generated locally",
+    "use": "technical test only; replace before final submission"
+  },
+  {
+    "path": "assets/audio/test-tone.wav",
+    "author": "AI-assisted diagnostic code; not student creative work",
+    "source": "scripts/create_fixtures.py",
+    "license": "Project diagnostic fixture; no third-party source",
+    "modifications": "Generated locally",
+    "use": "technical test only; replace before final submission"
+  }
+]

@@ -1,0 +1,18 @@
+FINAL IP TECHNICAL PROTOTYPE — SOURCE CREDITS
+
+Technical interface and fixture generator: AI-assisted code prepared with Codex.
+Story text: no final story supplied. The student group will write the story.
+Images: geometric test fixtures from scripts/create_fixtures.py.
+Audio: a generated sine-wave test fixture from scripts/create_fixtures.py.
+These fixtures are for technical checks. Replace them before final submission.
+
+SugarCube 2.37.3
+Author: Thomas Michael Edwards
+Source: https://www.motoslave.net/sugarcube/2/
+License: BSD 2-Clause. The full license follows in the built package.
+
+Tweego 2.1.1 is a build tool. Its executable is not part of this package.
+Source: https://www.motoslave.net/tweego/
+
+The technical prototype uses system fonts. It does not load remote fonts.
+No third-party models or final creative assets are included.

@@ -1,0 +1,185 @@
+{
+  "checkedAt": "2026-10-14T17:20:46.612Z",
+  "sourceSha256": "5f18d711fd3cab5344d151c059317a43e40ef31cd5866f696e58a8ff25758bf4",
+  "htmlSha256": "96de4041d6b26fd5ae7b6c3f47eefd0f5d4093bd7cb20281dc156584aa8c99e6",
+  "results": [
+    {
+      "browser": "Chrome",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "status": "passed",
+      "longTextWords": 2500,
+      "offline": true,
+      "remoteRequests": 0,
+      "checks": [
+        "local images",
+        "hotspot alignment A/B",
+        "A/B state across views",
+        "short text",
+        "long text scroll",
+        "text size",
+        "modal isolation",
+        "visible close",
+        "audio decode and time advance",
+        "repeat play",
+        "audio across view changes",
+        "stop",
+        "English UI",
+        "restart"
+      ]
+    },
+    {
+      "browser": "Chrome",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "status": "passed",
+      "longTextWords": 2500,
+      "offline": true,
+      "remoteRequests": 0,
+      "checks": [
+        "local images",
+        "hotspot alignment A/B",
+        "A/B state across views",
+        "short text",
+        "long text scroll",
+        "text size",
+        "modal isolation",
+        "visible close",
+        "audio decode and time advance",
+        "repeat play",
+        "audio across view changes",
+        "stop",
+        "English UI",
+        "restart"
+      ]
+    },
+    {
+      "browser": "Chrome",
+      "viewport": {
+        "width": 800,
+        "height": 600
+      },
+      "status": "passed",
+      "longTextWords": 2500,
+      "offline": true,
+      "remoteRequests": 0,
+      "checks": [
+        "local images",
+        "hotspot alignment A/B",
+        "A/B state across views",
+        "short text",
+        "long text scroll",
+        "text size",
+        "modal isolation",
+        "visible close",
+        "audio decode and time advance",
+        "repeat play",
+        "audio across view changes",
+        "stop",
+        "English UI",
+        "restart"
+      ]
+    },
+    {
+      "browser": "Edge",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "status": "passed",
+      "longTextWords": 2500,
+      "offline": true,
+      "remoteRequests": 0,
+      "checks": [
+        "local images",
+        "hotspot alignment A/B",
+        "A/B state across views",
+        "short text",
+        "long text scroll",
+        "text size",
+        "modal isolation",
+        "visible close",
+        "audio decode and time advance",
+        "repeat play",
+        "audio across view changes",
+        "stop",
+        "English UI",
+        "restart"
+      ]
+    },
+    {
+      "browser": "Edge",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "status": "passed",
+      "longTextWords": 2500,
+      "offline": true,
+      "remoteRequests": 0,
+      "checks": [
+        "local images",
+        "hotspot alignment A/B",
+        "A/B state across views",
+        "short text",
+        "long text scroll",
+        "text size",
+        "modal isolation",
+        "visible close",
+        "audio decode and time advance",
+        "repeat play",
+        "audio across view changes",
+        "stop",
+        "English UI",
+        "restart"
+      ]
+    },
+    {
+      "browser": "Edge",
+      "viewport": {
+        "width": 800,
+        "height": 600
+      },
+      "status": "passed",
+      "longTextWords": 2500,
+      "offline": true,
+      "remoteRequests": 0,
+      "checks": [
+        "local images",
+        "hotspot alignment A/B",
+        "A/B state across views",
+        "short text",
+        "long text scroll",
+        "text size",
+        "modal isolation",
+        "visible close",
+        "audio decode and time advance",
+        "repeat play",
+        "audio across view changes",
+        "stop",
+        "English UI",
+        "restart"
+      ]
+    }
+  ],
+  "humanListening": "pending",
+  "secondComputer": "pending",
+  "status": "passed",
+  "package": {
+    "status": "passed",
+    "files": [
+      "CREDITS.txt",
+      "README.txt",
+      "assets/audio/test-tone.wav",
+      "assets/images/view-a.svg",
+      "assets/images/view-b.svg",
+      "index.html"
+    ],
+    "sha256": "fad2998fe5c936eef2aaebd58c19e3bb649d383f3d8856f7305ba9c43c78be87",
+    "extractedLocally": true
+  }
+}

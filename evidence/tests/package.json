@@ -1,0 +1,14 @@
+{
+  "createdAt": "2026-10-14T17:32:48.196Z",
+  "sha256": "282e2586d69677234e0212a35b256d603a8fcada8642386fcd67ff43a759776c",
+  "files": [
+    "index.html",
+    "README.txt",
+    "CREDITS.txt",
+    "assets/images/view-a.svg",
+    "assets/images/view-b.svg",
+    "assets/audio/test-tone.wav"
+  ],
+  "sourceSha256": "ed70e22d527404048a167c3ab32b8885d4d7585a05211d77fe42ffd91b05cbad",
+  "status": "packaged; browser verification is separate"
+}

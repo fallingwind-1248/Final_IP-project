@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-14T17:19:56.346Z",
+  "sourceSha256": "ccb082f4311fc58552c730f33c3b2efdce16af6f2a381333914f5d916cc9d14f",
+  "htmlSha256": "68247c3fa6ae0c1c4edcea1e00d63a79abbf4ad59d90010c641d7efc5a8c90e5",
+  "results": [],
+  "humanListening": "pending",
+  "secondComputer": "pending",
+  "status": "failed",
+  "package": {
+    "status": "passed",
+    "files": [
+      "CREDITS.txt",
+      "README.txt",
+      "assets/audio/test-tone.wav",
+      "assets/images/view-a.svg",
+      "assets/images/view-b.svg",
+      "index.html"
+    ],
+    "sha256": "7e2a59d4d465aa49eb4658a959c615b78a82dcdd34812e09cb49a110d61cdc76",
+    "extractedLocally": true
+  },
+  "error": "locator.innerText: Error: strict mode violation: locator('.choice-value') resolved to 2 elements:\n    1) <strong aria-live=\"polite\" class=\"choice-value\">Option A</strong> aka locator('#out-passage-viewa strong')\n    2) <strong aria-live=\"polite\" class=\"choice-value\">Option A</strong> aka getByRole('strong')\n\nCall log:\n\u001b[2m  - waiting for locator('.choice-value')\u001b[22m\n\n    at verifyOne (E:\\佘逍遥的大学_大二\\批判性阅读与修辞\\Final_IP\\Final_IP-project\\tests\\offline.cjs:42:54)\n    at async E:\\佘逍遥的大学_大二\\批判性阅读与修辞\\Final_IP\\Final_IP-project\\tests\\offline.cjs:111:31"
+}
